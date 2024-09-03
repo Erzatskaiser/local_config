@@ -1,4 +1,4 @@
-Configuration files for the following applications:
+Configuration files for the following applications are available in repository:
 - CopyQ (clipboard system, in copyq)
 - Dunst (notification daemon, in dunst)
 - Htop (process viewer, in htop)
