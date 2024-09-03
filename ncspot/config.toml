@@ -1,0 +1,17 @@
+use_nerdfont = true
+notify = true
+default_keybindings = true
+flip_status_indicators = true
+hide_display_names = true
+cover_max_scale = 2
+
+[credentials]
+username = "31kkdxbjxdkxxk3okjmtkoogefwq"
+
+[theme]
+title = "#fe640b"
+highlight = "#fe640b"
+highlight_bg = "#7287fd"
+playing_bg = "#7287fd"
+statusbar = "#fe640b"
+primary = "#acb0be"

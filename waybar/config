@@ -1,0 +1,67 @@
+{
+    "layer": "top",
+    "position": "top",
+    "margin": "6",
+    "modules-left": [
+	"clock",
+	"hyprland/window",
+    ],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+	"network",
+	"memory",
+	"battery",
+    ],
+    "clock": {
+    	"interval": 60,
+    	"format": "{:%H:%M}",
+	"format-alt": "{:%A, %d %B %Y}",
+	"timezone": "America/Detroit",
+    	"max-length": 25,
+    	"tooltip-format": "<tt><small>{calendar}</small></tt>",
+    	"calendar": {
+        	"mode"          : "year",
+                "mode-mon-col"  : 3,
+                "on-scroll"     : 1,
+                "format": {
+                	"months":     "<span color='#8839ef'><i><b>{}</b></i></span>",
+                        "days":       "<span color='#7287fd'><b>{}</b></span>",
+                        "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+                        "weekdays":   "<span color='#209fb5'><b>{}</b></span>",
+                        "today":      "<span color='#e64553'><b>{}</b></span>"
+                }
+    	},
+    },   
+    "hyprland/workspaces": {
+	"active-only": false, 
+	"format-window-separator": "\n",
+	"format": "{icon}",
+	"persistent-workspaces": {
+		"*": 5,
+	}
+    },
+    "hyprland/window": {
+	"format": "{class}: {}",
+	"max-length": 25,
+	"rewrite": {
+		"(.*) — Mozilla Firefox": "Mozilla Firefox",
+	},
+    },
+    "network": {
+	"format-wifi": "{essid}",
+	"format-disconnected": "No network",
+	"tooltip-format-wifi": "{ipaddr} ({signaldBm} dB)"
+    },
+    "memory": {
+    	"format": "{percentage}% ",
+    	"max-length": 10
+    },
+    "battery": {
+	"states": {
+		"warning": 40,
+		"critical": 20
+	},
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    }
+}

@@ -1,0 +1,7 @@
+mode=drun
+prompt=Search
+allow_images=true
+insensitive=true
+location=top
+hide_scroll=true
+prompt=Search...
