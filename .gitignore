@@ -17,6 +17,7 @@ trashrc
 
 # These configs do not need to be replicated
 pulse/*
+copyq/*
 Code - OSS/*
 Electron/*
 GIMP/*
