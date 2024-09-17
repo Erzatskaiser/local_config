@@ -1,4 +1,0 @@
-2024-09-03 16:10:26.808 [info] Started local extension host with pid 27318.
-2024-09-03 16:10:27.227 [error] Extension 'jeanp413.open-remote-ssh CANNOT USE these API proposals 'resolvers, contribViewsRemote'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
-2024-09-03 16:10:27.331 [warning] [jeanp413.open-remote-ssh]: View container 'remote' requires 'enabledApiProposals: ["contribViewsRemote"]' to be added to 'Remote'.
-2024-09-03 16:10:30.475 [info] [perf] Render performance baseline is 65ms
