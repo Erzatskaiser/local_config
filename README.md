@@ -1,5 +1,7 @@
+# Dotfile for local config
+
 Configuration files for the following applications are available in repository:
-- CopyQ (clipboard system, in copyq)
+
 - Dunst (notification daemon, in dunst)
 - Htop (process viewer, in htop)
 - Hyprland (wayland tiling compositor, in hypr --> hyprland.conf)
