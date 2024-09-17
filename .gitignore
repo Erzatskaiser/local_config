@@ -1,0 +1,41 @@
+# These files contain data unrelated to config
+*.ini
+*.lock
+*.dat
+*.rmlock
+*.cbor
+
+# These configs do not need to be replicated
+pulse/*
+'Code - OSS'/*
+Electron/*
+GIMP/*
+Insomnia/*
+JetBrains/*
+autostart/*
+baloofileinformationrc/*
+cef_user_data/*
+chromium/*
+dconf/*
+dolphinrc/*
+glib-2.0/*
+gtk-2.0/*
+gtk-3.0/*
+kde.org/*
+kdeglobals/*
+kicad/*
+kiorc/*
+kitty/*
+kservicemenurc/*
+ktrashrc/*
+lftp/*
+libreoffice/*
+obs-studio/*
+okularrc/*
+pulse/*
+qt6ct/*
+rog/*
+session/*
+torbrowser/*
+trashrc/*
+yay/*
