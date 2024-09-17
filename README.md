@@ -11,7 +11,6 @@ Configuration files for the following applications are available in repository:
 - Kitty (terminal, in kitty)
 - ncspot (spotify tui, in ncspot)
 - neofetch (system info utility, in neofetch)
-- Pulseaudio (sound server, in pulse)
 - Waybar (wayland status bar, in waybar)
 - Wofi (wayland menu program, in wofi)
 - ncspot.toml (ncspot configuration, in ncspot.toml)
