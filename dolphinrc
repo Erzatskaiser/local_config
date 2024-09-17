@@ -1,0 +1,28 @@
+[CompactMode]
+UseSystemFont=false
+ViewFont=0xProto Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[DetailsMode]
+UseSystemFont=false
+ViewFont=0xProto Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[General]
+OpenExternallyCalledFolderInNewTab=true
+ShowSpaceInfo=false
+Version=202
+ViewPropsTimestamp=2024,5,7,17,41,6.606
+
+[IconsMode]
+UseSystemFont=false
+ViewFont=0xProto Nerd Font,11,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[PreviewSettings]
+Plugins=appimagethumbnail,audiothumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,opendocumentthumbnail,svgthumbnail

@@ -1,0 +1,24 @@
+2024-08-30 11:45:49.635 [info] Extension host with pid 7257 started
+2024-08-30 11:45:49.693 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-30 11:45:49.743 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-30 11:45:49.763 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-30 11:45:49.800 [info] Eager extensions activated
+2024-08-30 11:45:49.834 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-30 11:45:49.836 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-30 11:45:51.731 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-30 11:46:46.656 [info] ExtensionService#_doActivateExtension jeanp413.open-remote-ssh, startup: false, activationEvent: 'onCommand:openremotessh.openEmptyWindow'
+2024-08-30 11:46:46.715 [error] Activating extension jeanp413.open-remote-ssh failed due to an error:
+2024-08-30 11:46:46.715 [error] Error: Extension 'jeanp413.open-remote-ssh' CANNOT use API proposal: resolvers.
+Its package.json#enabledApiProposals-property declares:  but NOT resolvers.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api jeanp413.open-remote-ssh
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:142:59143)
+	at Object.registerRemoteAuthorityResolver (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:164:43835)
+	at t.activate (/home/emmanuel/.vscode-oss/extensions/jeanp413.open-remote-ssh-0.0.46-universal/out/extension.js:1:418141)
+	at z.kb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13608)
+	at z.jb (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:13280)
+	at /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:160:11267
+	at async m.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+	at async m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+	at async m.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-08-30 11:47:37.099 [info] Extension host terminating: renderer closed the MessagePort
+2024-08-30 11:47:37.103 [info] Extension host with pid 7257 exiting with code 0
