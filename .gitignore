@@ -4,10 +4,20 @@
 *.dat
 *.rmlock
 *.cbor
+*.rbblmF
+QtProject.conf
+baloofileinformationrc
+dolphinrc
+kdeglobals
+kiorc
+kservicemenurc
+ktrashrc
+okularrc
+trashrc
 
 # These configs do not need to be replicated
 pulse/*
-'Code - OSS'/*
+Code - OSS/*
 Electron/*
 GIMP/*
 Insomnia/*
