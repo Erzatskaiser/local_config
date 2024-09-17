@@ -41,11 +41,8 @@
 	}
     },
     "hyprland/window": {
-	"format": "{class}: {}",
-	"max-length": 25,
-	"rewrite": {
-		"(.*) — Mozilla Firefox": "Mozilla Firefox",
-	},
+	"format": "{class}: {title}",
+	"max-length": 25
     },
     "network": {
 	"format-wifi": "{essid}",
