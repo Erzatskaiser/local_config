@@ -1,3 +1,6 @@
+# These folders contain heavy data
+aesthetics/coverArt/
+
 # These files contain data unrelated to config
 *.ini
 *.lock
