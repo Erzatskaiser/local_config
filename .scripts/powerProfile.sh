@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Take input to determine power profile to run
 profile=$1
 

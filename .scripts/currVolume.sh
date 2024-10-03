@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Obtain current volume, keep only numerical value
 CURRENT=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | grep -E -o '[0-9.]+')
 

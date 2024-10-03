@@ -1,5 +1,6 @@
 # These folders contain heavy data
 aesthetics/coverArt/
+nvim/
 
 # These files contain data unrelated to config
 *.ini

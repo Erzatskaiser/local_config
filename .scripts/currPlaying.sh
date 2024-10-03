@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Var to store cache directory
 NCSPOT_CACHE_DIRECTORY="/run/user/1000/ncspot"
 

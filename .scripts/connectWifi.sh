@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 # Obtain user input for wifi name
 name=$1
 isKnown=0
