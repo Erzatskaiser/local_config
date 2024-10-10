@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Check the brightness on AMD, else NVIDIA
-CURRENT=$(brightnessctl -d amdgpu_bl2 get || \
+CURRENT=$(brightnessctl -d amdgpu_bl1 get || \
           brightnessctl -d nvidia_0 get)
 
 # Compute value as percentage

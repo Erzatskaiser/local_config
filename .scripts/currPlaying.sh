@@ -21,7 +21,8 @@ cleanMode=$(echo "$mode" | tr -d '"')
 
 # Clean artist name
 chars="]["
-cleanArtist=$(echo "$artists" | sed "s/[$chars]//g" | tr -d '"')
+cleanArtist=$(echo "$artists" | sed "s/[$chars]//g" | tr -d '\n''' | \
+  tr -d '"' | awk '{$1=$1};1')
 
 # Craft the output sequence
 echo $cleanMode: ${title:1:-1} \(${album:1:-1}\) by $cleanArtist

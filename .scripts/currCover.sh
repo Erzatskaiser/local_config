@@ -21,7 +21,7 @@ cleanName=$(echo "$name" | tr -d '"')
 cleanMode=$(echo "$mode" | tr -d '"')
 
 # Image file already exists: Rotate image
-if [ -e ~/.config/aesthetics/coverArt/"$cleanName.png" ]; then
+if [[ -e ~/.config/aesthetics/coverArt/"$cleanName.png" ]]; then
   
   # Rotations have large impact on performance,
   #echo ~/Customizations/coverArt/"$cleanName.png"

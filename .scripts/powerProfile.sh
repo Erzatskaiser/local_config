@@ -4,7 +4,7 @@
 profile=$1
 
 # User requests for help
-if [ "$profile" == "help" ]; then
+if [[ "$profile" == "help" ]]; then
   echo "The available options are: Quiet, Balanced, and Performance"
 # Execute the command, supress output
 else 
